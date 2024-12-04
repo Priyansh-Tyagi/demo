@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//function for max integer
 int max(int a, int b){
     if (a<b){
         cout << "B is greatest";
@@ -12,6 +13,8 @@ int max(int a, int b){
     return 0;
 }
 
+
+//function for min integer
 int min(int a , int b){
     if (a<b){
         cout << "A is Minimum";
@@ -22,12 +25,13 @@ int min(int a , int b){
     return 0;
 }
 
+//taking input and calling both functions
 int main(){
     int a ,b;
 
-    cout << "Enter value of A";
+    cout << "Enter value of A ";
     cin >> a;
-    cout << "Enter value of B";
+    cout << "Enter value of B " ;
     cin >> b;
 
     max(a,b);
