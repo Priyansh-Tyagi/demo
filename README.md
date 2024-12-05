@@ -1,2 +1,2 @@
 # demo
-This is my first repo
+This is a repo to track my progress in learning C++.
