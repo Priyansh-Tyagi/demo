@@ -3,7 +3,6 @@
 using namespace std;
 
 int fact(int n){
-    int sum;
 
     //base condition to terminat the recursion when N=0
     if (n==0 || n==1){
@@ -11,18 +10,17 @@ int fact(int n){
     }
 
     else{
-        sum = sum * fact(n-1);
+        return  n* fact(n-1);
     }
-    return 0;
 }
 int main()
 {
-    int n,sum;
+    int n,result;
     cout << "Enter a number n: ";
     cin >> n;
 
-    sum=fact(n);
+    result=fact(n);
     cout << "The sum of numbers is: ";
-    cout << sum << endl;
+    cout << result << endl;
     return 0;
 }
